@@ -1,0 +1,54 @@
+html {
+	background-color: black;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+}
+
+.text {
+	display: flex;
+	align-items: center;
+}
+
+.mers {
+	width: 92px;
+	height: 92x;
+	margin: 10px 0 10px 10px;
+}
+
+.text-mers {
+	background-image: linear-gradient(to left, rgb(222, 222, 222), rgb(204, 190, 190));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: Georgia, serif;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+}
+
+.link {
+	font-family: impact, ;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 20px 0 0;
+	font-size: 20px;
+}
+
+
+.link:hover {
+	color: gray;
+}
+
+.hr-mers {
+	border: 1px solid white;
+	border-bottom-width: 0;
+	width: 100%;
+}
